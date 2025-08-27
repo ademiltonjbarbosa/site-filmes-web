@@ -1,0 +1,57 @@
+/* Zerando Margem e Padding*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Estilizacao da NavBar*/
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: rgb(42, 213, 42);
+}
+.img-home{
+    width: 200px;
+    height: 100%;
+}
+
+img {
+    width: 200px;
+}
+li{
+    list-style: none;
+}
+a{
+    display: block;
+    text-decoration:none;
+    color: white;
+    height: 100%;
+    padding: 5px;
+    padding-top: 25px;
+}
+
+a:hover{
+    background-color: blue;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items:end;
+    height: 100%;
+   
+}
+ul{
+    display: block;
+    height: 100%;
+ 
+}
+.links ul li{
+    display: inline-block;
+    
+    margin-left: 20px;
+    margin-right: 5px;
+    height: 100%;
+   
+}
